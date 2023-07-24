@@ -1,0 +1,142 @@
+    body {
+    background: linear-gradient(#7b83ce, #2b6a68) fixed;
+    margin: 0 10%;
+    font-family: 'Courier New', sans-serif;
+    text-align: center;
+    color:#e9eaed;
+    font-size: medium;
+    font-weight: bold;
+    }
+    #grad {
+    height: auto;
+    }
+    header {
+    text-align: center;
+    font-size: 350%;
+    font-family: 'Righteous', sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 1em 1em 1em 1em;
+    color: #5a619f;
+    background-color: #86b1c0
+    }
+    h2 {
+    font-family: 'Righteous', sans-serif;
+    color: #86b1c0;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #66a793; 
+    font-size:30px;
+    text-align: center;
+    clear: both;
+    }
+    h3 {
+    color: #515186;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size:20px;
+    font-weight: bolder;
+    }
+    p {
+    font-family: inherit;
+    font-size: large;
+    color: inherit;
+    font-weight: 200;
+    line-height: 2em;
+    margin: 25px;
+    }
+    table {
+    text-align: center;
+    font-size: large;
+    padding: 1px 10px;
+    border-spacing: 8px;
+    float: left;
+    margin-bottom: 2em;
+    width:30%;
+    max-width:100%;
+    max-height:100%;
+    }
+    tr, td {
+    background-color: #5760b4;
+    padding: 4px;
+    }
+    caption {
+    font-family: 'Righteous', sans-serif;
+    color: #86b1c0;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #66a793; 
+    font-size:30px;
+    text-align: center;
+    }
+    div {
+    display: inline-block;
+    }
+    img {
+    align-content: space-evenly;
+    width: 30%;
+    max-width:100%;
+    max-height:100%;
+    }
+    ul {
+    list-style-type: none;
+    font-size: large;
+    text-align: center;
+    }
+    .software {
+    width: 25%;
+    float: right;
+    margin-bottom: 50px;
+    }
+    #wrapper {
+    width: 100%;  
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    background-color: rgba(255, 255, 255, 0.295);
+    }
+    .portfolio {
+    margin-bottom: 3em;
+    clear: both;
+    }
+    .modal {
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        position: fixed;
+        padding: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000ec;
+        overflow: hidden;
+        transition: all 0.3s;
+
+    }
+    .modal:target {
+        visibility: visible;
+        opacity: 100;
+        overflow: hidden;
+    }
+    .modal-content {
+        position: center;
+        padding: 5em;
+        overflow: hidden;
+    }
+    .close {
+        position: ;
+        top: 5px;
+        bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
