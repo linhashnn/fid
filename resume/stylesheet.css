@@ -1,5 +1,5 @@
     body {
-    background: linear-gradient(#7b83ce, #2b6a68) fixed;
+    background: linear-gradient(#6067a1c4, #2b6a68c6) fixed, url(PATTERNW.png) fixed;
     margin: 0 10%;
     font-family: 'Courier New', sans-serif;
     text-align: center;
@@ -12,7 +12,7 @@
     }
     header {
     text-align: center;
-    font-size: 350%;
+    font-size: 4vw;
     font-family: 'Righteous', sans-serif;
     font-weight: bold;
     letter-spacing: 20px;
@@ -21,11 +21,14 @@
     margin-top: 50px;
     padding: 1em 1em 1em 1em;
     color: #5a619f;
-    background-color: #86b1c0
+    background-color: #86b6c0;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
     }
     h2 {
     font-family: 'Righteous', sans-serif;
-    color: #86b1c0;
+    color: #86b6c0;
     text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -67,7 +70,7 @@
     }
     caption {
     font-family: 'Righteous', sans-serif;
-    color: #86b1c0;
+    color: #86b6c0;
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -81,18 +84,11 @@
     img {
     align-content: space-evenly;
     width: 30%;
-    max-width:100%;
-    max-height:100%;
     }
     ul {
     list-style-type: none;
     font-size: large;
     text-align: center;
-    }
-    .software {
-    width: 25%;
-    float: right;
-    margin-bottom: 50px;
     }
     #wrapper {
     width: 100%;  
@@ -104,6 +100,14 @@
     .portfolio {
     margin-bottom: 3em;
     clear: both;
+    }
+    .zoom {
+    padding: 20px;
+    transition: .2s;
+    margin: 0 auto;
+    }
+    .zoom:hover {
+    transform: scale(1.5);
     }
     .modal {
         visibility: hidden;
@@ -119,7 +123,7 @@
         align-items: center;
         background-color: #000000ec;
         overflow: hidden;
-        transition: all 0.3s;
+        transition: all 0.5s;
 
     }
     .modal:target {
@@ -131,11 +135,13 @@
         position: center;
         padding: 5em;
         overflow: hidden;
+        transition: all 0.5s
     }
     .close {
         position: ;
         top: 5px;
         bottom: 10px;
+        transition: all 0.5s
     }
     a {
         text-decoration: none;
