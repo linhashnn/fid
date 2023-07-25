@@ -2,21 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <title>Linh Nguyen</title>
         <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+        
 
 <!--NAME AND ABOUT ME-->
         <header>Linh Nguyen</header>
 
         <h2>┊About Me┊</h2>
         <p><i>Ever since I could pick up a pencil, art has been a vital part of my life. Growing up surrounded by a family of artists, it fueled my own passions and aspirations. My childhood love for cartoons developed into not just a general apprecation for art, but a deep admiration for <strong>character design and visual development</strong>.
-            As an aspiring illustrator, I'm currently studying <strong>Emerging Media</strong> at Seminole State College, with plans to transfer to Savannah College of Art and Design. I enjoy creating and exploring with digital mediums, and I aim to develop work that not only catches the eye, but also develops with me as I strive towards my career.</i></p>
-
-        <table style=>
+            As an aspiring illustrator, I'm currently studying <strong>Emerging Media</strong> at Seminole State College, with plans to transfer to Savnnah College of Art and Design. I enjoy creating and exploring with digital mediums, and I aim to develop work that not only catches the eye, but also develops with me as I strive towards my career.</i></p>
+        
+        <table>
             <caption>┊Skills┊</caption>
             <tr>
                 <td>Digital Media</td>
@@ -40,15 +41,18 @@
             </tr>
         </table>
 
-        <div class="software">
-            <h2>┊Software┊</h2>
-            <img src="logo/photoshop logo.png" alt="Photoshop">
-            <img src="logo/illustrator logo.png" alt="Illustrator">
-            <img src="logo/primere pro logo.png" alt="Premiere Pro">
-            <img src="logo/adobe audition logo.png" alt="Adobe Audition" >
-            <img src="logo/procreate logo.png" alt="Procreate">
-            <img src="logo/CSP logo.png" alt="Clip Studio Paint">  
-        </div>
+        <table style= "float: right;">
+            <caption>┊Software┊</caption>
+            <tr style="background-color: transparent;">
+                <td style="background-color: transparent;"><img style="width: 100px; height: 100px" src="logo/illustrator logo.png" alt="Illustrator"></td>
+                <td style="background-color: transparent;"><img style="width: 100px; height: 100px" src="logo/primere pro logo.png" alt="Premiere Pro"></td>
+                <td style="background-color: transparent;"><img style="width: 100px; height: 100px" src="logo/photoshop logo.png" alt="Photoshop"></td>
+            </tr>
+            <tr style="background-color: transparent;">
+                <td style="background-color: transparent;"><img style="width: 100px; height: 100px" src="logo/adobe audition logo.png" alt="Adobe Audition" ></td>
+                <td style="background-color: transparent;"><img style="width: 100px; height: 100px" src="logo/procreate logo.png" alt="Procreate"></td>
+                <td style="background-color: transparent;"> <img style="width: 100px; height: 100px" src="logo/CSP logo.png" alt="Clip Studio Paint"></td>
+        </table>
 
 <!--PORTFOLIO-->
 
@@ -56,49 +60,65 @@
 
     <div id="wrapper">
     <div class="portfolio">
+    
     	<h3>Adobe</h3>
+        <div class="zoom">
             <a href="#robot">
-                <img src="thumbnails/linh_nguyen_robot thumb.png" alt="Robot">
+                <img style="width: 150px; height: 150px;" src="thumbnails/linh_nguyen_robot thumb.png" alt="Robot">
             </a>
+        </div>
+        <div class="zoom">
            <a href="#dentist">
-                <img src="thumbnails/NguyenL_Logo thumb.png" alt="Dentist Logo">
+                <img style="width: 150px; height: 150px;" src="thumbnails/NguyenL_Logo thumb.png" alt="Dentist Logo">
            </a>
+        </div>
+        <div class="zoom">
            <a href="#angel">
-                <img src="thumbnails/NguyenL_Final thumb.png" alt="Angel Photoshop">
+                <img style="width: 150px; height: 150px;" src="thumbnails/NguyenL_Final thumb.png" alt="Angel Photoshop">
            </a>
+        </div>
 
         <h3>Procreate</h3>
+        <div class="zoom">
             <a href="#palette">
-                <img src="thumbnails/palettechallenge thumb.png" alt="Palette Challenge">
+                <img style="width: 150px; height: 150px;" src="thumbnails/palettechallenge thumb.png" alt="Palette Challenge">
             </a>
+        </div>
+        <div class="zoom">
              <a href="#star">
-                <img src="thumbnails/a lone star thumb.png" alt="A Lone Star Illust">
+                <img style="width: 150px; height: 150px;" src="thumbnails/a lone star thumb.png" alt="A Lone Star Illust">
             </a>
+        </div>
+        <div class="zoom">
             <a href="#charac">
-                <img src="thumbnails/miyatan thumb.png" alt="Character Illust">  
+                <img style="width: 150px; height: 150px;" src="thumbnails/miyatan thumb.png" alt="Character Illust">  
             </a>
+        </div>
+
 
     </div>
     </div>
+
+<!--PORTFOLIO MODALS-->
 
     <div class="modal" id="robot">
         <div class="modal-content">
             <img style= "width: 50%" src="portfolio/linh_nguyen_robot.png" alt="Robot">
-            <a href="#" class="Close">close</a>
+            <a href="#portfolio" class="Close">close</a>
         </div>
     </div>
 
     <div class="modal" id="dentist">
         <div class="modal-content">
             <img style= "width: 50%" src="portfolio/NguyenL_Logo.png" alt="Dentist Logo">
-            <a href="#" class="Close">close</a>
+            <a href="#portfolio" class="Close">close</a>
         </div>
     </div>
 
     <div class="modal" id="angel">
         <div class="modal-content">
             <img style= "width: 70%" src="portfolio/NguyenL_Final.jpg" alt="Angel Photoshop">
-            <a href="#" class="Close">close</a>
+            <a href="#portfolio" class="Close">close</a>
         </div>
     </div>
 
@@ -106,28 +126,29 @@
     <div class="modal" id="palette">
         <div class="modal-content">
             <img style= "width: 50%" src="portfolio/palettechallenge.png" alt="Palette Challenge">
-            <a href="#" class="Close">close</a>
+            <a href="#portfolio" class="Close">close</a>
         </div>
     </div>
 
     <div class="modal" id="star">
         <div class="modal-content">
             <img style= "width: 50%" src="portfolio/a lone star.png" alt="A Lone Star Illust">
-            <a href="#" class="Close">close</a>
+            <a href="#portfolio" class="Close">close</a>
         </div>
     </div>
 
     <div class="modal" id="charac">
         <div class="modal-content">
             <img style= "width: 50%" src="portfolio/miyatan.png" alt="Character Illust">
-            <a href="#" class="Close">close</a>
+            <a href="#portfolio" class="Close">close</a>
         </div>
     </div>
+</div>
 
 <!--CONTACT-->
         <h2>Contact</h2>
         <a href="https://github.com/linhashnn"> 
-        <img style="width: 95px;height: 95px;" src="logo/github-icon.svg" alt="GitHub">
+        <img style="width: 90px;height: 90px; padding-bottom: 5px;" src="logo/github-icon.svg" alt="GitHub">
         </a>
         <a href="https://kinomilii.carrd.co">
         <img style="width: 100px;height: 100px;" src="logo/carrd.svg" alt="Carrd">
