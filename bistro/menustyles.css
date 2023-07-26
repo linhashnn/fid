@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, serif;
+  font-family: 'Franklin Gothic Light', sans-serif;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
@@ -10,12 +10,10 @@ header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background: url(images/tealdot.png) center top repeat-x;
   background: 
-    url(images/tealdot.png) left top repeat-y,
-    url(images/tealdot.png) right top repeat-y,
     url(images/gooseshadow.png) 90% bottom no-repeat;
   background-color: rgba(255,255,255,.5);
+  border-radius: 20px;
 }
 a {
   text-decoration: none;
@@ -29,15 +27,17 @@ a:visited {
 a:focus, a:hover {
   color:#b94e48;
   background-color: #fff;
+  transition: 0.2s;
 }
 a:active {
   color: #00ced1 ;
   background-color: #fff;
 }
 h1 {
-  font: bold 1.5em Georgia, serif;
-  text-shadow: .1em .1em .2em gray;
-  color: #008080
+  font: bold 2em 'Marko One', serif;
+  text-shadow: .1em .1em .2em rgba(90, 104, 104, 0.483);
+  color: #008080;
+  font-variant: small-caps;
 }
 h2 {
   font-size: 1em;
@@ -56,7 +56,16 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-  
+  display: inline-block;
+}
+nav {
+  text-align: center;
+}
+li {
+  display: inline-flex;
+  margin: 0;
+  padding: 1em;
+  font-size: large;
 }
 #info p {
   font-style: italic;
