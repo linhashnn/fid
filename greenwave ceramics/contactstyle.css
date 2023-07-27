@@ -1,0 +1,91 @@
+        body {
+        background-color: rgb(255, 255, 255);
+        font-family: 'Ubuntu Mono','Franklin Gothic Light', sans-serif;
+        margin: 0;
+        }
+        header {
+        background-color: rgb(228, 232, 216);
+        margin: 0;
+        padding: 1em 1em 1em 1em;
+        text-align: center;
+        font-size: larger;
+        text-shadow: 2px 2px 2px rgb(104, 148, 125);
+        text-decoration: dashed;
+        }
+        header img {
+        width: 100px;
+        height: 100px;
+        }
+        h1 {
+        font-family: 'Architects Daughter', sans-serif;
+        font-weight: bolder;
+        }
+        h2 {
+        font-family: 'Architects Daughter', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        }
+        p {
+        font-family: 'Ubuntu Mono', 'Gill Sans', sans-serif;
+        font-weight: bold;
+        clear: both;
+        }
+        img {
+        max-width: 100%;
+        max-height: 100%;
+        }
+        footer {
+        align-items: center;
+        text-align: center;
+        }
+        footer img {
+        width: 40px;
+        height: 40px;
+        margin-left: .5em;
+        margin-right: .5em;
+        } 
+        ul {
+        list-style: none;
+        }
+        li {
+        margin: 5px 0;
+        padding: 10px;
+        display: inline;
+        }
+        .nav {
+        margin: 0;
+        padding: 0.5em 1em 0.5em 1em;
+        text-align: center;
+        background-color: black;
+        position: sticky;
+        top:0;
+        font-size: large;
+        transition: all 0,3;
+        }
+        a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        }
+        a:hover {
+        color: rgb(155, 218, 197);
+        }
+        .banner {
+        transition: 0.ms;
+        }
+        .texthead {
+        position: absolute;
+        font-family: 'Architects Daughter', sans-serif;
+        font-weight: bold;
+        bottom: 5px;
+        left: 16px;
+        font-size: 90px;
+        color: aliceblue;
+        }
+        fieldset {
+         margin-top: 2em;
+         margin-left: 1em;
+         margin-right: 1em;
+        list-style: none;
+        }
+
