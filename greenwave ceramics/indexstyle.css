@@ -58,10 +58,9 @@
         padding: 0.5em 1em 0.5em 1em;
         text-align: center;
         background-color: black;
-        position: stick;
+        position: sticky;
         top:0;
         font-size: large;
-        transition: all 0,3;
         }
         a{
         text-decoration: none;
